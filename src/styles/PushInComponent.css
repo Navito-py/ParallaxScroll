@@ -68,3 +68,14 @@
     cursor: pointer;
 }
 
+.linktoform{
+    margin-top: 190px;
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
