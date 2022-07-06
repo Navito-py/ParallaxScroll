@@ -1,0 +1,59 @@
+#layer1{
+    background-image: URL('../img/Pagina\ 02.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#layer2{
+    background-image: URL('../img/Pagina\ 03.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+#layer3{
+    background-image: URL('../img/pagina\ 04.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#layer4{
+    background-image: URL('../img/Pagina\ 05.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#Buttonmusica{
+   position: absolute;
+   top: 18.7%;
+   left: 18.5%; 
+   width: 90px;
+   height: 90px;
+   border-radius: 100px;
+   background-color: transparent;
+   color: transparent;
+   cursor: pointer;
+}
+
+.buttonsmedias{
+    width: 320px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Buttonmedia{
+    border-color: red;
+    background-color: transparent;
+    border-radius: 100px;
+    color: red
+}
+

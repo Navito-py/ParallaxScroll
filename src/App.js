@@ -1,12 +1,19 @@
 import 'pushin/dist/pushin.css';
-import PushInComponent from './PushInComponent';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import PushInComponent from './components/PushInComponent';
+import Landing from './components/Landing';
 
 
 export default function App() {
   return (
-    <div>
-      <PushInComponent></PushInComponent>
-    </div>
+    <BrowserRouter>
+      <div>
+        <Routes>
+          <Route path='/' element={<Landing/>} />
+          <Route path='/Scroll' element={<PushInComponent/>} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   )
 }
 

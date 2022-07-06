@@ -1,7 +1,7 @@
 import React, { useLayoutEffect, useRef } from 'react';
 import { PushIn } from 'pushin';
-import './PushInComponent.css'
-import theme from './music/1.mp3'
+import '../styles/PushInComponent.css'
+import theme from '../music/1.mp3'
 
 export default function PushInComponent() {
   const pushInContainer = useRef();
@@ -20,17 +20,18 @@ export default function PushInComponent() {
     <div className="pushin" ref={pushInContainer}>
       <div className="pushin-scene">
         <div id='layer1' className="pushin-layer">
-            Planeta Tierra
-            <button id='Buttonmusica' onClick={() => audio.play()}>Sondo de prueba</button>
+            <button id='Buttonmusica' onClick={() => audio.play()}>Play</button>
+            <div className='buttonsmedias'>
+            <button className='Buttonmedia' onClick={() => audio.pause()}>Pause</button>
+            <button className='Buttonmedia' onClick={() => audio.volume = audio.volume - 0.2}>lowVolume</button>
+            <button className='Buttonmedia' onClick={() => audio.volume = audio.volume + 0.2}>UpVolume</button>
+            </div>
         </div>
         <div id='layer2' className="pushin-layer">
-          Sistema Solar (o algo asi)
         </div>
         <div id='layer3' className="pushin-layer">
-          Via Lactea
         </div>
         <div id='layer4' className="pushin-layer">
-          Universo
         </div>
       </div>
     </div>
