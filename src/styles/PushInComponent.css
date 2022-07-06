@@ -1,3 +1,10 @@
+#layer0{
+    background-image: URL('../img/Home-01.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 #layer1{
     background-image: URL('../img/Pagina\ 02.jpg');
     height: 100vh;
@@ -32,10 +39,7 @@
 }
 
 #Buttonmusica{
-   position: absolute;
-   top: 18.7%;
-   left: 18.5%; 
-   width: 90px;
+    width: 90px;
    height: 90px;
    border-radius: 100px;
    background-color: transparent;
@@ -44,16 +48,23 @@
 }
 
 .buttonsmedias{
-    width: 320px;
-    height: 30px;
+    width: 350px;
+    height: 90px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    margin-left: -490px;
+    margin-bottom: 300px;
 }
 
 .Buttonmedia{
+    margin-top: 30px;
+    width: 80px;
+    height: 30px;
     border-color: red;
     background-color: transparent;
     border-radius: 100px;
-    color: red
+    color: red;
+    cursor: pointer;
 }
 
