@@ -2,7 +2,6 @@ import React, { useLayoutEffect, useRef } from 'react';
 import { PushIn } from 'pushin';
 import '../styles/PushInComponent.css'
 import theme from '../music/1.mp3'
-import Landing from './Landing';
 
 export default function PushInComponent() {
   const pushInContainer = useRef();
@@ -24,10 +23,10 @@ export default function PushInComponent() {
         </div>
         <div id='layer1' className="pushin-layer">
             <div className='buttonsmedias'>
-            <button id='Buttonmusica' onClick={() => audio.play()}>Play</button>
-            <button className='Buttonmedia' onClick={() => audio.pause()}>Pause</button>
-            <button className='Buttonmedia' onClick={() => audio.volume = audio.volume - 0.2}>lowVolume</button>
-            <button className='Buttonmedia' onClick={() => audio.volume = audio.volume + 0.2}>UpVolume</button>
+              <button id='Buttonmusica' onClick={() => audio.play()}>Play</button>
+              <button className='Buttonmedia' onClick={() => audio.pause()}>Pause</button>
+              <button className='Buttonmedia' onClick={() => audio.volume = audio.volume - 0.2}>lowVolume</button>
+              <button className='Buttonmedia' onClick={() => audio.volume = audio.volume + 0.2}>UpVolume</button>
             </div>
         </div>
         <div id='layer2' className="pushin-layer">
