@@ -37,6 +37,10 @@
     background-repeat: no-repeat;
 }
 
+#scene-color{
+    background-color: black;
+}
+
 #Buttonmusica{
     width: 90px;
    height: 90px;

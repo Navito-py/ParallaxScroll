@@ -4,6 +4,7 @@ import '../styles/PushInComponent.css'
 import theme from '../music/1.mp3'
 import ChildrenSFX from '../music/Childrens.mp3'
 import ParkSFX from '../music/Park.mp3'
+import Landing from './Landing';
 
 export default function PushInComponent() {
   const pushInContainer = useRef();
@@ -28,10 +29,11 @@ export default function PushInComponent() {
 
   return (
     <div className="pushin" ref={pushInContainer}>
-      <div className="pushin-scene">
+      <div id='scene-color' className="pushin-scene">
         <div id='layer0' className="pushin-layer">
+          <Landing/>
         </div>
-        <div id='layer1' className="pushin-layer">
+        <div id='layer1' data-pushin-transition-end='800' className="pushin-layer">
           <div>
             <div className='buttonsmedias'>
               <button id='Buttonmusica' onClick={() => audio1.play()}>Play</button>

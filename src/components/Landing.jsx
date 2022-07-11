@@ -1,15 +1,37 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/Landing.css'
+import IMG from '../img/Landingpopup.png'
+import { useState } from 'react'
 
 export default function Landing() {
+
+
+    const [modal, SetModal] = useState(true)
+
+    const toggleModal = () => {
+        SetModal(!modal)
+    }
+
+    if (modal){
+        document.body.classList.add('ActiveModle')
+    }else{
+        document.body.classList.remove('ActiveModle')
+    }
+
+
     return (
-        <div className='divLanding'>
-            <div>
-                <Link to='/Scroll'>
-                    <button className='Btniniciar'></button>
-                </Link>
+        <>
+        {
+            modal && (
+
+                <div className='modal'>
+            <div /* onClick={toggleModal} */ className='overlay'></div>
+            <div className='modal-content'>
+                <img onClick={toggleModal} className='imgLanding' src={IMG} alt="lel" />
             </div>
-        </div>
+         </div>
+        )}
+        </>
     )
 }

@@ -9,8 +9,7 @@ export default function App() {
     <BrowserRouter>
       <div>
         <Routes>
-          <Route path='/' element={<Landing/>} />
-          <Route path='/Scroll' element={<PushInComponent/>} />
+          <Route path='/' element={<PushInComponent/>} />
         </Routes>
       </div>
     </BrowserRouter>
