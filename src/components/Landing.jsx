@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import '../styles/Landing.css'
 import IMG from '../img/Landingpopup.png'
 import { useState } from 'react'
