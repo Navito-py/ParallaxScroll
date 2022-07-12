@@ -5,7 +5,6 @@ import { useState } from 'react'
 
 export default function Landing() {
 
-
     const [modal, SetModal] = useState(true)
 
     const toggleModal = () => {
@@ -24,9 +23,9 @@ export default function Landing() {
         {
             modal && (
 
-                <div className='modal'>
-            <div /* onClick={toggleModal} */ className='overlay'></div>
-            <div className='modal-content'>
+            <div className='modal'>
+                <div className='overlay'></div>
+                <div className='modal-content'>
                 <img onClick={toggleModal} className='imgLanding' src={IMG} alt="lel" />
             </div>
          </div>

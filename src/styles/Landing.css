@@ -1,16 +1,7 @@
 body.ActiveModle{
-    overflow-y: hidden;
+    overflow-y:hidden;
 }
- 
-.modal, .overlay {
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: fixed;
-}
+
 
 .overlay {
     background: transparent;
@@ -25,6 +16,6 @@ body.ActiveModle{
 }
 
 .imgLanding{
-    width: 600px;
+    width: 800px;
     cursor: pointer;
 }

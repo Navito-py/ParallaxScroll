@@ -48,17 +48,104 @@
    background-color: transparent;
    color: transparent;
    cursor: pointer;
+   border-color: transparent;
 }
 
-.buttonsmedias{
+.buttonsmedias11{
     width: 350px;
     height: 90px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: -410px;
-    margin-bottom: 300px;
+    position:absolute;
+    left: 25em;
+    top: 6.8em;
 }
+
+.buttonsmedias12{
+    width: 350px;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    left: 3em;
+    top: 21em;
+    
+}
+
+.buttonsmedias13{
+    width: 350px;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 7em;
+    right: 7.5em;
+    
+}
+
+.buttonsmedias14{
+    width: 350px;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 21em;
+    right: 2.6em;
+    
+}
+
+.buttonsmedias15{
+    width: 350px;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 35em;
+    right: 7.4em;
+    
+}
+
+.buttonsmedias16{
+    width: 350px;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 35em;
+    left: 25em;
+    
+}
+
+.buttonsmedias17{
+    width: 350px;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 42em;
+    left: 40em;
+    
+}
+
+.buttonsmedias18{
+    width: 350px;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 1em;
+    left: 40em;
+    
+}
+
 
 .Buttonmedia{
     margin-top: 30px;
