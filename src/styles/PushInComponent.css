@@ -6,7 +6,7 @@
 }
 
 #layer1{
-    background-image: URL('../img/Pagina\ 02.jpg');
+    background-image: URL('../img/Pagina\ 02\ .jpg');
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@
 
 
 #layer3{
-    background-image: URL('../img/pagina\ 04.jpg');
+    background-image: URL('../img/Pagina\ 04.jpg');
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,6 +32,21 @@
 
 #layer4{
     background-image: URL('../img/Pagina\ 05.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#layer5{
+    background-image: URL('../img/Pagina\ 06.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#layer6{
+    background-image: URL('../img/Pagina\ 07.jpg');
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -159,9 +174,9 @@
 }
 
 .linktoform{
-    margin-top: 190px;
-    width: 140px;
-    height: 40px;
+    margin-top: 25em;
+    width: 300px;
+    height: 60px;
     border-radius: 30px;
     background-color: transparent;
     color: transparent;
