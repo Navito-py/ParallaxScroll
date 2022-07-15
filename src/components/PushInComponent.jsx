@@ -141,43 +141,43 @@ export default function PushInComponent() {
               <button className='Buttonmedia' onClick={() => audio1.volume = audio1.volume + 0.2}>UpVolume</button> */}
             </div>
             <div className='buttonsmedias12'>
-              <button id='Buttonmusica' onClick={() => Childrens.play()}>Play</button>
+              <button id='Buttonmusica' onClick={() => Childrens.play()}></button>
               {/* <button className='Buttonmedia' onClick={() => Childrens.volume = Childrens.volume + 0.2}>UpVolume</button>
               <button className='Buttonmedia' onClick={() => Childrens.volume = Childrens.volume - 0.2}>lowVolume</button>
               <button className='Buttonmedia' onClick={() => Childrens.pause()}>Pause</button> */}
             </div>
             <div className='buttonsmedias13'>
-              <button id='Buttonmusica' onClick={() => park.play()}>Play</button>
+              <button id='Buttonmusica' onClick={() => park.play()}></button>
               {/* <button className='Buttonmedia' onClick={() => park.pause()}>Pause</button>
               <button className='Buttonmedia' onClick={() => park.volume = park.volume - 0.2}>lowVolume</button>
               <button className='Buttonmedia' onClick={() => park.volume = park.volume + 0.2}>UpVolume</button> */}
             </div>
             <div className='buttonsmedias14'>
-              <button id='Buttonmusica' onClick={() => aplausossfx.play()}>Play</button>
+              <button id='Buttonmusica' onClick={() => aplausossfx.play()}></button>
               {/* <button className='Buttonmedia' onClick={() => aplausossfx.pause()}>Pause</button>
               <button className='Buttonmedia' onClick={() => aplausossfx.volume = aplausossfx.volume - 0.2}>lowVolume</button>
               <button className='Buttonmedia' onClick={() => aplausossfx.volume = aplausossfx.volume + 0.2}>UpVolume</button> */}
             </div>
             <div className='buttonsmedias15'>
-              <button id='Buttonmusica' onClick={() => carcerolassfx.play()}>Play</button>
+              <button id='Buttonmusica' onClick={() => carcerolassfx.play()}></button>
               {/* <button className='Buttonmedia' onClick={() => carcerolassfx.pause()}>Pause</button>
               <button className='Buttonmedia' onClick={() => carcerolassfx.volume = carcerolassfx.volume - 0.2}>lowVolume</button>
               <button className='Buttonmedia' onClick={() => carcerolassfx.volume = carcerolassfx.volume + 0.2}>UpVolume</ button>*/}
             </div>
             <div className='buttonsmedias16'>
-              <button id='Buttonmusica' onClick={() => helicopterosfx.play()}>Play</button>
+              <button id='Buttonmusica' onClick={() => helicopterosfx.play()}></button>
               {/* <button className='Buttonmedia' onClick={() => helicopterosfx.pause()}>Pause</button>
               <button className='Buttonmedia' onClick={() => helicopterosfx.volume = helicopterosfx.volume - 0.2}>lowVolume</button>
               <button className='Buttonmedia' onClick={() => helicopterosfx.volume = helicopterosfx.volume + 0.2}>UpVolume</button> */}
             </div>
             <div className='buttonsmedias17'>
-              <button id='Buttonmusica' onClick={() => PuertasCorredizassfx.play()}>Play</button>
+              <button id='Buttonmusica' onClick={() => PuertasCorredizassfx.play()}></button>
               {/* <button className='Buttonmedia' onClick={() => PuertasCorredizassfx.pause()}>Pause</button>
               <button className='Buttonmedia' onClick={() => PuertasCorredizassfx.volume = PuertasCorredizassfx.volume - 0.2}>lowVolume</button>
               <button className='Buttonmedia' onClick={() => PuertasCorredizassfx.volume = PuertasCorredizassfx.volume + 0.2}>UpVolume</button> */}
             </div>
             <div className='buttonsmedias18'>
-              <button id='Buttonmusica' onClick={() => Quemadebarbijossfx.play()}>Play</button>
+              <button id='Buttonmusica' onClick={() => Quemadebarbijossfx.play()}></button>
               {/* <button className='Buttonmedia' onClick={() => Quemadebarbijossfx.pause()}>Pause</button>
               <button className='Buttonmedia' onClick={() => Quemadebarbijossfx.volume = Quemadebarbijossfx.volume - 0.2}>lowVolume</button>
               <button className='Buttonmedia' onClick={() => Quemadebarbijossfx.volume = Quemadebarbijossfx.volume + 0.2}>UpVolume</button> */}

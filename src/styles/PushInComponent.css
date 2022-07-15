@@ -57,8 +57,8 @@
 }
 
 #Buttonmusica{
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     border-radius: 100px;
     background-color: transparent;
     color: transparent;
@@ -73,8 +73,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position:absolute;
-    left: 25em;
-    top: 6.8em;
+    left: 28.2em;
+    top: 10.5em;
 }
 
 .buttonsmedias12{
@@ -84,8 +84,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position:absolute;
-    left: 17em;
-    top: 21em;
+    left: 24em;
+    top: 22em;
     
 }
 
@@ -96,8 +96,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position:absolute;
-    top: 7em;
-    right: 25em;
+    top: 10.5em;
+    right: 27.5em;
     
 }
 
@@ -108,8 +108,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position:absolute;
-    top: 21em;
-    right: 20em;
+    top: 21.8em;
+    right: 23.5em;
     
 }
 
@@ -120,8 +120,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position:absolute;
-    top: 35em;
-    right: 25em;
+    top: 32em;
+    right: 28em;
     
 }
 
@@ -132,8 +132,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position:absolute;
-    top: 35em;
-    left: 25em;
+    top: 32em;
+    left: 28em;
     
 }
 
@@ -144,7 +144,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position:absolute;
-    top: 42em;
+    top: 38em;
     left: 40em;
     
 }
@@ -156,7 +156,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position:absolute;
-    top: 1em;
+    top: 6em;
     left: 40em;
     
 }
