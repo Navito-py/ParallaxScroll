@@ -24,6 +24,11 @@ import ClaseVirtual from '../music/5mts/Clasevirtual.mp3'
 import Netflix from '../music/5mts/Netflix.mp3'
 import Teclado from '../music/5mts/Teclado.mp3'
 import Vibracióncelular from '../music/5mts/Vibracióncelular.mp3'
+import Pedo from '../music/0mts/Pedo.mp3'
+import Respiracion from '../music/0mts/Respiracion barbijo.mp3'
+import Tos from '../music/0mts/Tos.mp3'
+import Vozconfesion from '../music/0mts/Vozconfesion.mp3'
+import Vozpensamientoeditada from '../music/0mts/Vozpensamientoeditada.mp3'
 import Landing from './Landing';
 
 export default function PushInComponent() {
@@ -97,6 +102,21 @@ export default function PushInComponent() {
 
   const Vibracióncelularsfx = new Audio()
   Vibracióncelularsfx.src = Vibracióncelular
+
+  const Pedosfx = new Audio()
+  Pedosfx.src = Pedo
+
+  const Respiracionsfx = new Audio()
+  Respiracionsfx.src = Respiracion
+
+  const Tossfx = new Audio()
+  Tossfx.src = Tos
+
+  const Vozconfesionsfx = new Audio()
+  Vozconfesionsfx.src = Vozconfesion
+
+  const Vozpensamientoeditadasfx = new Audio()
+  Vozpensamientoeditadasfx.src = Vozpensamientoeditada
 
   useLayoutEffect(() => {
     const pushIn = new PushIn(pushInContainer.current);
@@ -267,7 +287,37 @@ export default function PushInComponent() {
           </div>
         </div>
         <div id='layer5' className="pushin-layer">
-        <div>
+          <div>
+          <div className='buttonsmedias51'>
+              <button id='Buttonmusica' onClick={() => Pedosfx.play()}>Play</button>
+              {/* <button className='Buttonmedia' onClick={() => audio1.pause()}>Pause</button>
+              <button className='Buttonmedia' onClick={() => audio1.volume = audio1.volume - 0.2}>lowVolume</button>
+              <button className='Buttonmedia' onClick={() => audio1.volume = audio1.volume + 0.2}>UpVolume</button> */}
+          </div>
+          <div className='buttonsmedias52'>
+              <button id='Buttonmusica' onClick={() => Respiracionsfx.play()}>Play</button>
+              {/* <button className='Buttonmedia' onClick={() => audio1.pause()}>Pause</button>
+              <button className='Buttonmedia' onClick={() => audio1.volume = audio1.volume - 0.2}>lowVolume</button>
+              <button className='Buttonmedia' onClick={() => audio1.volume = audio1.volume + 0.2}>UpVolume</button> */}
+          </div>
+          <div className='buttonsmedias53'>
+              <button id='Buttonmusica' onClick={() => Tossfx.play()}>Play</button>
+              {/* <button className='Buttonmedia' onClick={() => audio1.pause()}>Pause</button>
+              <button className='Buttonmedia' onClick={() => audio1.volume = audio1.volume - 0.2}>lowVolume</button>
+              <button className='Buttonmedia' onClick={() => audio1.volume = audio1.volume + 0.2}>UpVolume</button> */}
+          </div>
+          <div className='buttonsmedias54'>
+              <button id='Buttonmusica' onClick={() => Vozconfesionsfx.play()}>Play</button>
+              {/* <button className='Buttonmedia' onClick={() => audio1.pause()}>Pause</button>
+              <button className='Buttonmedia' onClick={() => audio1.volume = audio1.volume - 0.2}>lowVolume</button>
+              <button className='Buttonmedia' onClick={() => audio1.volume = audio1.volume + 0.2}>UpVolume</button> */}
+          </div>
+          <div className='buttonsmedias55'>
+              <button id='Buttonmusica' onClick={() => Vozpensamientoeditadasfx.play()}>Play</button>
+              {/* <button className='Buttonmedia' onClick={() => audio1.pause()}>Pause</button>
+              <button className='Buttonmedia' onClick={() => audio1.volume = audio1.volume - 0.2}>lowVolume</button>
+              <button className='Buttonmedia' onClick={() => audio1.volume = audio1.volume + 0.2}>UpVolume</button> */}
+          </div>
           </div>
         </div>
         <div id='layer6' className="pushin-layer">
