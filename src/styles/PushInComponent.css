@@ -63,7 +63,7 @@
    background-color: transparent;
    color: transparent;
    cursor: pointer;
-   border-color: transparent;
+   border-color: white;
 }
 
 .buttonsmedias11{
@@ -84,7 +84,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position:absolute;
-    left: 3em;
+    left: 17em;
     top: 21em;
     
 }
