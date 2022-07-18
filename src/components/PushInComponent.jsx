@@ -13,9 +13,11 @@ import Alfombra from '../music/50mts/Alfombra.mp3'
 import CalleDesdeAdentro from '../music/50mts/Ambientecalledesdeadentro.mp3'
 import AscensorVivi from '../music/50mts/Ascensorvivi.mp3'
 import Pasos from '../music/50mts/Pasos.mp3'
+import Ascensormaga from '../music/50mts/Ascensormaga.mp3'
 import Puerta from '../music/50mts/Puerta.mp3'
 import Exctactor from '../music/20mts/Extractor.mp3'
 import GoteoCanilla from '../music/20mts/Goteocanilla.mp3'
+import Coolerpc from '../music/20mts/Coolerpc.mp3'
 import MotorHeladera from '../music/20mts/Motorheladera.mp3'
 import PatasMascotas from '../music/20mts/Patasmascota.mp3'
 import Reloj from '../music/20mts/Reloj.mp3'
@@ -67,6 +69,9 @@ export default function PushInComponent() {
   const AscensorVivisfx = new Audio()
   AscensorVivisfx.src = AscensorVivi
 
+  const Ascensormagasfx = new Audio()
+  Ascensormagasfx.src = Ascensormaga
+
   const Pasossfx = new Audio()
   Pasossfx.src = Pasos
 
@@ -81,6 +86,9 @@ export default function PushInComponent() {
 
   const MotorHeladerasfx = new Audio()
   MotorHeladerasfx.src = MotorHeladera
+
+  const Coolerpcsfx = new Audio()
+  Coolerpcsfx.src = Coolerpc
 
   const PatasMascotassfx = new Audio()
   PatasMascotassfx.src = PatasMascotas
@@ -216,6 +224,12 @@ export default function PushInComponent() {
               <button className='Buttonmedia' onClick={() => Quemadebarbijossfx.volume = Quemadebarbijossfx.volume - 0.2}>lowVolume</button>
               <button className='Buttonmedia' onClick={() => Quemadebarbijossfx.volume = Quemadebarbijossfx.volume + 0.2}>UpVolume</button> */}
             </div>
+            <div className='buttonsmedias26'>
+              <button id='Buttonmusica' onClick={() => Ascensormagasfx.play()}>Play</button>
+              {/* <button className='Buttonmedia' onClick={() => Quemadebarbijossfx.pause()}>Pause</button>
+              <button className='Buttonmedia' onClick={() => Quemadebarbijossfx.volume = Quemadebarbijossfx.volume - 0.2}>lowVolume</button>
+              <button className='Buttonmedia' onClick={() => Quemadebarbijossfx.volume = Quemadebarbijossfx.volume + 0.2}>UpVolume</button> */}
+            </div>
           </div>
         </div>
         <div id='layer3' className="pushin-layer">
@@ -246,6 +260,12 @@ export default function PushInComponent() {
           </div>
           <div className='buttonsmedias35'>
               <button id='Buttonmusica' onClick={() => Relojsfx.play()}>Play</button>
+              {/* <button className='Buttonmedia' onClick={() => audio1.pause()}>Pause</button>
+              <button className='Buttonmedia' onClick={() => audio1.volume = audio1.volume - 0.2}>lowVolume</button>
+              <button className='Buttonmedia' onClick={() => audio1.volume = audio1.volume + 0.2}>UpVolume</button> */}
+          </div>
+          <div className='buttonsmedias36'>
+              <button id='Buttonmusica' onClick={() => Coolerpcsfx.play()}>Play</button>
               {/* <button className='Buttonmedia' onClick={() => audio1.pause()}>Pause</button>
               <button className='Buttonmedia' onClick={() => audio1.volume = audio1.volume - 0.2}>lowVolume</button>
               <button className='Buttonmedia' onClick={() => audio1.volume = audio1.volume + 0.2}>UpVolume</button> */}

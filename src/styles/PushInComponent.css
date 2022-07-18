@@ -2,54 +2,59 @@
     background-image: URL('../img/Home-01.jpg');
     height: 100vh;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
 #layer1{
     background-image: URL('../img/Pagina\ 02\ .jpg');
     height: 100vh;
-    background-size: cover;
     background-repeat: no-repeat;
-
+    background-position: center;
+    background-size: 1600px 900px;
 }
 
 #layer2{
     background-image: URL('../img/Pagina\ 03.jpg');
     height: 100vh;
-    background-size: cover;
+    background-size: 1600px 900px;
     background-repeat: no-repeat;
-
+    background-position: center;
 }
 
 
 #layer3{
     background-image: URL('../img/Pagina04.jpg');
     height: 100vh;
-    background-size: cover;
+    background-size: 1600px 900px;
     background-repeat: no-repeat;
-
+    background-position: center;
 }
+
 
 #layer4{
     background-image: URL('../img/Pagina\ 05.jpg');
     height: 100vh;
-    background-size: cover;
+    background-size: 1600px 900px;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 
 #layer5{
     background-image: URL('../img/Pagina\ 06.jpg');
     height: 100vh;
-    background-size: cover;
+    background-size: 1600px 900px;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #layer6{
     background-image: URL('../img/Pagina\ 07.jpg');
     height: 100vh;
-    background-size: cover;
+    background-size: 1600px 900px;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #scene-color{
@@ -57,8 +62,8 @@
 }
 
 #Buttonmusica{
-    width: 75px;
-    height: 75px;
+    width: 110px;
+    height: 110px;
     border-radius: 100px;
     background-color: transparent;
     color: transparent;
@@ -73,8 +78,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position:absolute;
-    left: 28.2em;
-    top: 10.5em;
+    left: 42em;
+    top: 13em;
 }
 
 .buttonsmedias12{
@@ -84,8 +89,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position:absolute;
-    left: 24em;
-    top: 22em;
+    left: 37em;
+    top: 26em;
     
 }
 
@@ -96,8 +101,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position:absolute;
-    top: 10.5em;
-    right: 27.5em;
+    top: 13em;
+    right: 43em;
     
 }
 
@@ -108,8 +113,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position:absolute;
-    top: 21.8em;
-    right: 23.5em;
+    top: 26em;
+    right: 38em;
     
 }
 
@@ -120,8 +125,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position:absolute;
-    top: 32em;
-    right: 28em;
+    top: 39em;
+    right: 42em;
     
 }
 
@@ -132,8 +137,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position:absolute;
-    top: 32em;
-    left: 28em;
+    top: 39em;
+    left: 42em;
     
 }
 
@@ -144,8 +149,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position:absolute;
-    top: 38em;
-    left: 40em;
+    top: 45em;
+    left: 56.4em;
     
 }
 
@@ -156,8 +161,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position:absolute;
-    top: 6em;
-    left: 40em;
+    top: 7.5em;
+    left: 56.4em;
     
 }
 
@@ -168,8 +173,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position:absolute;
-    top: 3em;
-    left: 30em;
+    top: 8em;
+    left: 49em;
     
 }
 
@@ -180,8 +185,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position:absolute;
-    top: 17em;
-    left: 20em;
+    top: 22em;
+    left: 37em;
     
 }
 
@@ -192,10 +197,239 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position:absolute;
-    top: 17em;
-    left: 20em;
+    top: 41em;
+    left: 45em;
     
 }
+
+.buttonsmedias24{
+    /* width: 350px;
+    height: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 42em;
+    right: 47em;
+    
+}
+
+.buttonsmedias25{
+    /* width: 350px;
+    height: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 26em;
+    right: 38em;
+    
+}
+
+.buttonsmedias26{
+    /* width: 350px;
+    height: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 12em;
+    right: 43em;
+    
+}
+
+.buttonsmedias31{
+    /* width: 350px;
+    height: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 7em;
+    left: 56em;
+    
+}
+
+.buttonsmedias32{
+    /* width: 350px;
+    height: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 17em;
+    left: 39em;
+    
+}
+
+.buttonsmedias33{
+    /* width: 350px;
+    height: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 37.5em;
+    left: 41em;
+    
+}
+
+.buttonsmedias34{
+    /* width: 350px;
+    height: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 44em;
+    right: 52em;
+    
+}
+
+.buttonsmedias35{
+    /* width: 350px;
+    height: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 17em;
+    right: 39em;
+    
+}
+
+.buttonsmedias36{
+    /* width: 350px;
+    height: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 34em;
+    right: 40em;
+    
+}
+
+.buttonsmedias41{
+    /* width: 350px;
+    height: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 7em;
+    left: 56em;
+    
+}
+
+.buttonsmedias42{
+    /* width: 350px;
+    height: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 22em;
+    left: 37em;
+    
+}
+
+.buttonsmedias43{
+    /* width: 350px;
+    height: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 41em;
+    left: 45em;
+    
+}
+
+.buttonsmedias44{
+    /* width: 350px;
+    height: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 40em;
+    right: 44em;
+    
+}
+
+.buttonsmedias45{
+    /* width: 350px;
+    height: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 20em;
+    right: 39em;
+    
+}
+
+.buttonsmedias51{
+    /* width: 350px;
+    height: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 9em;
+    left: 48em;
+    
+}
+
+.buttonsmedias52{
+    /* width: 350px;
+    height: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 28em;
+    left: 37em;
+    
+}
+
+.buttonsmedias53{
+    /* width: 350px;
+    height: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 45em;
+    left: 58em;
+    
+}
+
+.buttonsmedias54{
+    /* width: 350px;
+    height: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 33em;
+    right: 38em;
+    
+}
+
+.buttonsmedias55{
+    /* width: 350px;
+    height: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 12em;
+    right: 44em;
+    
+}
+
 
 
 .Buttonmedia{
@@ -210,13 +444,13 @@
 }
 
 .linktoform{
-    margin-top: 25em;
-    width: 300px;
+    margin-top: 17em;
+    width: 250px;
     height: 60px;
     border-radius: 30px;
     background-color: transparent;
     color: transparent;
-    border: transparent;
+    border-color: white;
     cursor: pointer;
 }
 
