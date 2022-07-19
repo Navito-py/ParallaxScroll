@@ -71,6 +71,19 @@
     border-color: transparent;
 }
 
+.imgscroll{
+    width: 120px;
+    position: absolute;
+    top: 80%;
+}
+
+.imgscroll2{
+    width: 120px;
+    position: absolute;
+    top: 65%;
+    left: 46.7%;
+}
+
 .buttonsmedias11{
     /* width: 350px;
     height: 90px; */
